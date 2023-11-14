@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.control.Label?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.DisplayNonVegController">
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #800080;" BorderPane.alignment="CENTER" />
+    </left>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="displaynonveg" layoutX="59.0" layoutY="68.0" prefHeight="435.0" prefWidth="466.0" />
+                <Button fx:id="btndisplaynonvegtodashboard" layoutX="250.0" layoutY="571.0" mnemonicParsing="false" onAction="#clkdisplaynonvegtodashboard" text="Dashboard">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

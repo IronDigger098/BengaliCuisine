@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="655.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.controllers.NonVegController">
+    <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #800080;" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="txtnonvegsearch" layoutX="26.0" layoutY="136.0" />
+                <Button fx:id="btnnonvegsearch" layoutX="47.0" layoutY="187.0" mnemonicParsing="false" onAction="#clksearchnonveg" prefHeight="26.0" prefWidth="99.0" text="Search" />
+            <Button fx:id="btnbackfromnonveg" layoutX="36.0" layoutY="328.0" mnemonicParsing="false" onAction="#clkbackfromnonveg" prefHeight="26.0" prefWidth="70.0" text="Back" />
+            </children>
+        </AnchorPane>
+    </left>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" layoutX="3.0" layoutY="34.0" prefHeight="18.0" prefWidth="646.0" text="Welcome to the non-veg food corner">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+                <TextArea layoutX="5.0" layoutY="110.0" prefHeight="310.0" prefWidth="642.0" text="Bengali cuisine revolves around some of the most sumptuous fish, chicken and mutton &#10;preparations, don't you agree? While there are many vegetarian delicacies that are equally&#10; delicious, a non-vegetarian spread on the table often takes the cake. And if you are &#10;someone who loves to explore indulge in ever-so rich and scrumptious non-vegetarian &#10;delicacies,Bengali cuisine has options galore! The cuisine uses distinct spices, tossed with &#10;local and seasonal produce, to make some of the most stellar innovations. From doi &#10;maach, posto chicken, Kolkata biryani to chops and robust macher jhol, each dish is better &#10;than the previous, so much that you won't just stop at one bite.">
+                    <font>
+                        <Font name="System Italic" size="16.0" />
+                    </font>
+                </TextArea>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
